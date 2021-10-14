@@ -1,0 +1,28 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	display: grid;
+	grid-auto-columns: 1fr 4fr;
+	grid-template-rows: auto auto auto;
+	grid-template-areas: 
+	"aside header"
+	"aside design-types"
+	".top-designers"
+	".footer"
+}
+.main_header{
+	grid-area: header;
+}
+.main-aside{
+	grid-area: aside;
+}
+.design_types{
+	grid-area: design-types;
+}
+.top_designers{
+	grid-area: top-designers;
+}
+.main_footer{
+	grid-area: footer;
+}
