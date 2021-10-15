@@ -26,3 +26,69 @@ body{
 .main_footer{
 	grid-area: footer;
 }
+.main_header_container{
+	max-width: 1200px;
+	width: 100%;
+	margin: 30px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.profile_icons_container ul{
+	display: grid;
+	grid-template-columns: repeat(5, auto);
+	grid-template-rows: auto;
+	grid-column-gap: 30px;
+	align-items: center;
+}
+.search_form_container{
+	position: relative;
+}
+.search_form_container input{
+	width: 346px;
+	border-radius: 12px;
+	padding:10px;
+	background: #F8F8F8;
+	border-radius: 12px;
+	border: none;
+	transition: .5s;
+}
+.search_form_container a{
+	position: absolute;
+	left: 85%;
+	top: 19%;
+}
+.search_form_container input[type="text"]:hover{
+	font-size: 20px;
+}
+.profile_icons_container .go_pro{
+	color: #FF2288;
+	font-size: 14px;
+	font-family: Avenir Heavy;
+}
+.profile_icons_container .upload{
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family: Avenir Heavy;
+	padding: 17px 40px 20px 36px;
+	background: #FF2288;
+	border: none;
+	border-radius: 12px;
+}
+.mail_dot_relative, .bell_dot_relative{
+	position: relative;
+}
+.mail_dot::before, .bell_dot::before{
+	content: "";
+	width: 8px;
+	height: 8px;
+	background: #FF2288;
+	border: 1px solid #FFFFFF;
+	border-radius: 12px;
+	position: absolute;
+	left: 60%;
+}
+
+
+
+
