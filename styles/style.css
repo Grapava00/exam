@@ -14,8 +14,9 @@ body{
 .main_header{
 	grid-area: header;
 }
-.main-aside{
+.sidebar_content{
 	grid-area: aside;
+	background: black;
 }
 .design_types{
 	grid-area: design-types;
@@ -74,6 +75,7 @@ body{
 	background: #FF2288;
 	border: none;
 	border-radius: 12px;
+	cursor: pointer;
 }
 .mail_dot_relative, .bell_dot_relative{
 	position: relative;
@@ -88,7 +90,59 @@ body{
 	position: absolute;
 	left: 60%;
 }
-
+.sidebar_container{
+	max-width: 250px;
+	width: 100%;
+	margin: 42px auto ;
+}
+.logo{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav{
+	margin: 106px 0 89px;
+}
+.flex_nav_li{
+	display: flex;
+	align-items: center;
+	border-radius: 12px;
+	padding: 20px;
+}
+.hover_nav_li:hover{
+	background: #FF2288;
+	cursor: pointer;
+}
+.style_nav_text{
+	margin-left: 15px;
+	color: #FFFFFF;
+	font-family: 'Avenir Medium';
+}
+.following{
+	margin-left: 15px;
+}
+.flex_following_li{
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+}
+.style_following_text{
+	margin-left: 21px;
+	color: #FFFFFF;
+	font-family: 'Avenir Medium';
+}
+.title_following{
+	color: #FFFFFF;
+	font-family: Avenir Heavy;
+}
+.following .load_more{
+	margin-top: 19px;
+	font-size: 14px;
+	background: none;
+	border: none;
+	color: #FFFFFF;
+	cursor: pointer;
+}
 
 
 

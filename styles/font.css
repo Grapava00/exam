@@ -2,3 +2,11 @@
 	font-family: 'Avenir Heavy';
 	src: url('../fonts/Avenir Heavy.ttf');
 }
+@font-face{
+	font-family: 'Avenir Medium';
+	src: url('../fonts/Avenir Medium.ttf');
+}
+@font-face{
+	font-family: 'Avenir Book';
+	src: url('../fonts/Avenir Book.ttf');
+}
