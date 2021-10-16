@@ -4,15 +4,16 @@
 body{
 	display: grid;
 	grid-auto-columns: 1fr 4fr;
-	grid-template-rows: auto auto auto;
+	grid-template-rows: minmax(50px, auto) auto auto auto;
 	grid-template-areas: 
 	"aside header"
 	"aside design-types"
 	".top-designers"
 	".footer"
 }
-.main_header{
+.header_content{
 	grid-area: header;
+	border-bottom: 1px solid #f2f2f2;
 }
 .sidebar_content{
 	grid-area: aside;
@@ -24,10 +25,10 @@ body{
 .top_designers{
 	grid-area: top-designers;
 }
-.main_footer{
+.footer_content{
 	grid-area: footer;
 }
-.main_header_container{
+.header_content_container{
 	max-width: 1200px;
 	width: 100%;
 	margin: 30px auto;
@@ -100,7 +101,7 @@ body{
 	justify-content: space-between;
 	align-items: center;
 }
-nav{
+.sidebar_nav{
 	margin: 106px 0 89px;
 }
 .flex_nav_li{
@@ -143,6 +144,102 @@ nav{
 	color: #FFFFFF;
 	cursor: pointer;
 }
-
-
+.design_types_container{
+	max-width: 1024px;
+	width: 100%;
+	margin: 60px auto;
+}
+.design_types_nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.design_types_nav ul{
+	display: flex;
+}
+.design_types_nav .all_a_style{
+	font-family: 'Avenir Heavy';
+	color: #222222;
+	padding: 16px 20px 19px 18px;
+	border-radius:12px ;
+	background: #F2F2F2;
+	transition: .5s;
+}
+.design_types_nav .other_a_style{
+    font-family: 'Avenir Book';
+    color: #222222;
+    margin-left: 50px;
+    transition: .5s;
+}
+.other_a_style:hover,.all_a_style:hover {
+	color: gray;
+}
+.filters_container{
+	display: flex;
+	align-items: center;
+	padding: 16px 27px 16px 24px;
+	border: 1px solid #D8D8D8;
+	border-radius: 12px;
+}
+.filters_style{
+	margin: 15px;
+	color: #222222;
+	font-family: 'Avenir Heavy';
+	transition: .5s;
+}
+.filters_style:hover{
+	color: gray;
+}
+.photo_description_container img{
+    width: 250px;
+}
+.ui_components_relative{
+	position: relative;
+}
+.svg_plus{
+	position: absolute;
+	top: 35px;
+	left: 35px;
+	padding: 5px;
+	background: #FFFFFF;
+	border-radius: 12px;
+}
+.svg_heart{
+	position: absolute;
+	top: 75px;
+	left: 35px;
+	padding: 5px;
+	background: #FFFFFF;
+	border-radius: 12px;
+}
+.photo_description_container p{
+	width: 200px;
+	margin: 0 auto;
+	font-family: 'Avenir Medium';
+}
+.top_img_row{
+	display: flex;
+}
+.bottom_img_row{
+	display: flex;
+	margin: 30px 0 86px 0;
+}
+.more_container{
+	display: flex;
+	justify-content: center;
+}
+.design_types_more{
+    background: none;
+    border: none;
+    color: #222222;
+    font-family: 'Avenir Heavy';
+    cursor: pointer;
+    padding: 16px 108px 19px 105px;
+    background: #F2F2F2;
+    border-radius: 12px;
+    transition: .5s;
+}
+.design_types_more:hover{
+	color: gray;
+}
 
