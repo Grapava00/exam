@@ -94,7 +94,7 @@ body{
 .sidebar_container{
 	max-width: 250px;
 	width: 100%;
-	margin: 42px auto ;
+	margin: 25px auto ;
 }
 .logo{
 	display: flex;
@@ -102,13 +102,13 @@ body{
 	align-items: center;
 }
 .sidebar_nav{
-	margin: 106px 0 89px;
+	margin: 40px 0 89px;
 }
 .flex_nav_li{
 	display: flex;
 	align-items: center;
 	border-radius: 12px;
-	padding: 20px;
+	padding: 10px;
 }
 .hover_nav_li:hover{
 	background: #FF2288;
@@ -120,12 +120,12 @@ body{
 	font-family: 'Avenir Medium';
 }
 .following{
-	margin-left: 15px;
+	margin: 0 0 10px 15px;
 }
 .flex_following_li{
 	display: flex;
 	align-items: center;
-	margin-top: 30px;
+	margin-top: 5px;
 }
 .style_following_text{
 	margin-left: 21px;
@@ -147,7 +147,7 @@ body{
 .design_types_container{
 	max-width: 1024px;
 	width: 100%;
-	margin: 60px auto;
+	margin: 20px auto;
 }
 .design_types_nav{
 	display: flex;
@@ -220,7 +220,7 @@ body{
 	cursor: pointer;
 }
 .svg_heart:hover{
-	background: #ff9999;
+	background: #6699ff;
 }
 .photo_description_container p{
 	width: 200px;
