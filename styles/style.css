@@ -157,7 +157,7 @@ body{
 .design_types_nav{
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items:center
 }
 .design_types_nav ul{
 	display: flex;
