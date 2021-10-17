@@ -310,3 +310,30 @@ body{
 	color: #222222;
     opacity: 0.3;
 }
+.footer_menu{
+	max-width: 1024px;
+	width: 100%;
+	margin: 50px auto;
+	display: flex;
+}
+.footer_menu h5{
+	font-family: Avenir Heavy;
+	margin-bottom: 30px;
+}
+.footer_menu li a, .advertise, .shop_creative_market{
+	font-family: Avenir Book;
+	color: #222222;
+}
+.footer_menu .brands, .design_asset_margin{
+	margin: 40px 0 36px 0;
+}
+.footer_menu .brands a, .design_asset{
+	font-family: Avenir Heavy;
+	color: #222222;
+}
+.footer_menut_block1, .footer_menut_block2, .footer_menut_block3{
+	margin-right: 105px;
+}
+.foter_menu_lists_margin{
+	margin-bottom: 20px;
+}
