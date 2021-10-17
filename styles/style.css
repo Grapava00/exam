@@ -8,7 +8,7 @@ body{
 	grid-template-areas: 
 	"aside header"
 	"aside design-types"
-	".top-designers"
+	".after_design_types"
 	".footer"
 }
 .header_content{
@@ -22,8 +22,8 @@ body{
 .design_types{
 	grid-area: design-types;
 }
-.top_designers{
-	grid-area: top-designers;
+.after_design_types{
+	grid-area: after_design_types;
 	background: #FAFAFA;
 	transform: translateY(-20px);
 }
@@ -362,4 +362,19 @@ body{
 }
 .twitter svg path:hover{
 	fill: #1DA1F2;
+}
+.table_container{
+	max-width: 1024px;
+	width: 100%;
+	margin: 40px auto;
+}
+table{
+  font-family: Avenir Heavy;
+  width: 100%;
+  color: #AFAFAF;
+}
+td, th {
+  border-top: 1px solid #dddddd;
+  text-align: left;
+  padding: 20px;
 }
