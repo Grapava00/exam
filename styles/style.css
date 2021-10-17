@@ -368,11 +368,13 @@ body{
 	width: 100%;
 	margin: 40px auto;
 }
+.main_content{
+	overflow-x:auto;
+}
 table{
   font-family: Avenir Heavy;
   width: 100%;
   color: #AFAFAF;
-  overflow-x:auto;
 }
 td, th {
   border-top: 1px solid #dddddd;
