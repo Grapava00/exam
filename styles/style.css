@@ -4,7 +4,7 @@
 body{
 	display: grid;
 	grid-auto-columns: 1fr 4fr;
-	grid-template-rows: minmax(50px, auto) auto auto auto;
+	grid-template-rows: minmax(50px, auto) auto minmax(500px, auto) auto;
 	grid-template-areas: 
 	"aside header"
 	"aside design-types"
@@ -24,6 +24,8 @@ body{
 }
 .top_designers{
 	grid-area: top-designers;
+	background: #FAFAFA;
+	transform: translateY(-20px);
 }
 .footer_content{
 	grid-area: footer;
@@ -94,7 +96,7 @@ body{
 .sidebar_container{
 	max-width: 250px;
 	width: 100%;
-	margin: 25px auto ;
+	margin: 25px auto 106px ;
 }
 .logo{
 	display: flex;
@@ -120,7 +122,7 @@ body{
 	font-family: 'Avenir Medium';
 }
 .following{
-	margin: 0 0 10px 15px;
+	margin: 0 0 15px 15px;
 }
 .flex_following_li{
 	display: flex;
@@ -131,6 +133,9 @@ body{
 	margin-left: 21px;
 	color: #FFFFFF;
 	font-family: 'Avenir Medium';
+}
+.style_following_text:hover{
+	color: gray;
 }
 .title_following{
 	color: #FFFFFF;
@@ -187,7 +192,7 @@ body{
 	font-family: 'Avenir Heavy';
 	transition: .5s;
 }
-.filters_style:hover{
+.filters_styles:hover{
 	color: gray;
 }
 .photo_description_container img{
@@ -232,7 +237,7 @@ body{
 }
 .bottom_img_row{
 	display: flex;
-	margin: 30px 0 86px 0;
+	margin: 30px 0 50px 0;
 }
 .more_container{
 	display: flex;
@@ -252,4 +257,56 @@ body{
 .design_types_more:hover{
 	color: gray;
 }
-
+.top_designers_container{
+	max-width: 1024px;
+	width: 100%;
+	display: flex;
+	margin: 30px auto;
+}
+.top_designers_container img{
+	width: 110px;
+}
+.common_style_designers{
+	display: flex;
+	flex-direction: column;
+	margin-right: 13px;
+}
+.common_style_designers a{
+    color: #222222;
+    font-family: 'Avenir Medium';
+    font-size: 14px;
+    margin: 15px auto 10px;
+}
+.common_style_designers span{
+	color: #222222;
+	font-size: 12px;
+	font-family: 'Avenir Book';
+	margin: 0 auto 20px;
+}
+.common_style_designers button{
+	background: #D8D8D8;
+	border: none;
+	border-radius: 12px;
+	cursor: pointer;
+	padding: 12px 20px 13px;
+	font-family: Avenir Heavy;
+	transition: .5s;
+}
+.common_style_designers button:hover{
+    color: blue;
+}
+.title_designers{
+	max-width: 1024px;
+	width: 100%;
+	margin: 70px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.title_designers h2{
+	font-size: 32px;
+	font-family: Avenir Heavy;
+}
+.title_designers a{
+	color: #222222;
+    opacity: 0.3;
+}
