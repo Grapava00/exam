@@ -110,14 +110,14 @@ body{
 	display: flex;
 	align-items: center;
 	border-radius: 12px;
-	padding: 20px;
+	padding: 10px;
 }
 .hover_nav_li:hover{
 	background: #FF2288;
 	cursor: pointer;
 }
 .style_nav_text{
-	margin-left: 15px;
+	margin-left: 5px;
 	color: #FFFFFF;
 	font-family: 'Avenir Medium';
 }
@@ -127,7 +127,7 @@ body{
 .flex_following_li{
 	display: flex;
 	align-items: center;
-	margin-top: 15px;
+	margin-top: 5px;
 }
 .style_following_text{
 	margin-left: 21px;

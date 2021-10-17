@@ -1,3 +1,11 @@
+@media(max-width: 1400px){
+	.flex_following_li{
+		margin-top: 15px;
+	}
+	.flex_nav_li{
+		padding: 20px;
+	}
+}
 @media(max-width: 1024px){
 	body{
 	display: grid;
