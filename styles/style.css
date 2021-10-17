@@ -7,8 +7,8 @@ body{
 	grid-template-rows: minmax(50px, auto) auto minmax(500px, auto) auto;
 	grid-template-areas: 
 	"aside header"
-	"aside design-types"
-	".after_design_types"
+	"aside main_content"
+	".after_main_content"
 	".footer"
 }
 .header_content{
@@ -19,11 +19,11 @@ body{
 	grid-area: aside;
 	background: black;
 }
-.design_types{
-	grid-area: design-types;
+.main_content{
+	grid-area: main_content;
 }
-.after_design_types{
-	grid-area: after_design_types;
+.after_main_content{
+	grid-area: after_main_content;
 	background: #FAFAFA;
 	transform: translateY(-20px);
 }
@@ -377,4 +377,19 @@ td, th {
   border-top: 1px solid #dddddd;
   text-align: left;
   padding: 20px;
+}
+th{
+	font-size: 18px;
+	color: #111111;
+}
+tr{
+	transition: .2s;
+}
+tr:hover{
+    color: #222222;
+    background: #F2F2F2;
+    border-radius: 12px;
+}
+.purple_td{
+	color: #FF2288
 }
