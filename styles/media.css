@@ -13,8 +13,8 @@
 	grid-template-rows: minmax(50px, auto) auto minmax(500px, auto) auto;
 	grid-template-areas: 
 	"header"
-	"design-types"
-	"top-designers"
+	"main_content"
+	"after_main_content"
 	"footer"
 	}
 	.sidebar_content{
