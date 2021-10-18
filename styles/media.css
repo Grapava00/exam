@@ -75,6 +75,9 @@
 	.common_style_designers{
 		width: 200px;
 	}
+	.design_types_nav li{
+		width: 100;
+	}
 	.design_types_nav{
 		display: none;
 	}
@@ -99,5 +102,8 @@
 @media(max-width: 480px){
 	.profile_icons_container .go_pro{
 		display: none;
+	}
+	.after_main_content{
+		margin-top: 80px;
 	}
 }

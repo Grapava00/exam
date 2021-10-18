@@ -177,7 +177,11 @@ body{
     transition: .5s;
 }
 .other_a_style:hover,.all_a_style:hover {
-	color: gray;
+	background: #F2F2F2;
+	border-radius: 12px;
+	padding: 5px;
+	font-size: 20px;
+	font-family: 'Avenir Heavy';
 }
 .filters_container{
 	display: flex;
