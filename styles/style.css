@@ -363,13 +363,18 @@ body{
     font-weight: bold;
 }
 .facebook svg path:hover{
-	fill:  gray;
+	fill:   #4267B2;
 }
 .instagram svg path:hover{
-	fill: gray;
+	fill: #C13584;
 }
 .twitter svg path:hover{
-	fill: gray;
+	fill:  #1DA1F2;
+}
+.icon_to_index{
+	padding: 17px 10px 8px;
+	border-radius: 28px;
+	border: 2px solid gray;
 }
 .table_container{
 	max-width: 1024px;
