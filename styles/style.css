@@ -176,7 +176,10 @@ body{
     margin-left: 50px;
     transition: .5s;
 }
-.other_a_style:hover,.all_a_style:hover {
+.all_a_style:hover{
+	color: gray;
+}
+.other_a_style:hover{
 	background: #F2F2F2;
 	border-radius: 12px;
 	padding: 5px;
